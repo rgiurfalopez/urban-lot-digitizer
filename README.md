@@ -33,4 +33,4 @@ cada lote y generando un archivo Excel estructurado y reutilizable.
 ## Uso
 1. Instalar dependencias:
    ```bash
-   pip install -r requirements.txt
+   pip install -r requisitos.txt
