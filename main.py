@@ -1,7 +1,5 @@
-"""
-Plano2Coordenadas
-Autor: Ruben Giurfa
-"""
+# Plano2Coordenadas
+# Autor: Ruben Giurfa
 import cv2
 import pandas as pd
 import numpy as np
@@ -106,4 +104,5 @@ for i, casa in enumerate(casas):
 df = pd.DataFrame(datos)
 df.to_excel("coordenadas_casas.xlsx", index=False)
 print("✅ Coordenadas guardadas en 'coordenadas_casas.xlsx'")
+
 
